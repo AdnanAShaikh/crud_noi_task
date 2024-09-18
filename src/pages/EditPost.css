@@ -1,0 +1,67 @@
+.container1 {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box1 {
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  line-height: 1.5;
+  gap: 1rem;
+  position: absolute;
+  transform: translate(50%, 5%);
+  width: 50vw;
+  min-height: 70vh;
+}
+
+.heading1 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.edit-post1 {
+  padding: 0.3rem 0.5rem;
+  background-color: #03045e;
+  color: white;
+}
+
+.edit-post:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #03045e;
+}
+
+.new-form1 {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 5px;
+}
+
+.input-new1 {
+  background-color: #03045e;
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.des-new1 {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  resize: vertical;
+  background-color: #03045e;
+  color: whitesmoke;
+}
